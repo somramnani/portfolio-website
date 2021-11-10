@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<meta http-equiv="X-UA-Compatible" content="ie=edge">
+			<link rel="icon" href="assets/images/me.jpg">
+			<title>Som Ramnani Portfolio</title>
+			<!------------------------------------------------------------------------------------------>
+			<!-- **************Bootstrap Links************** -->
+			<!------------------------------------------------------------------------------------------>
+			<!-- Latest compiled and minified CSS -->
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+			<!------------------------------------------------------------------------------------------>
+		
+		<!------------------------------------------------------------------------------------------>
+		<!-- **************Style Sheets************** -->
+		<!------------------------------------------------------------------------------------------>
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+		<!-- Font Awesome Link -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+		
+		<!-- Animate.css -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+		<!-- My Style Sheet -->
+		<link rel="stylesheet" href="assets/css/style.css"> 
+		<link rel="stylesheet" href="assets/css/mobile.css"> 
+		<!------------------------------------------------------------------------------------------>
+	</head>
+
+	<body>
+		<div class = "background-color top header">
+			<!------------------------------------------------------------------------------------------>
+			<!-- NAVBAR -->
+			<!------------------------------------------------------------------------------------------>
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-transparent bounce animated topnavbar">
+				<a class="navbar-brand black" href="#top">SOM RAMNANI</a>
+				<button class="navbar-toggler navbar-dark bg-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+										
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">				
+					<ul class="navbar-nav ml-auto">
+
+						<li class="nav-item">
+							<a class="nav-link black"  href="#aboutmesection">ABOUT</a>
+						</li>
+									
+						<li class="nav-item">
+							<a class="nav-link" id="black" href="#projects">PORTFOLIO</a>
+						</li>
+										
+						<!-- <li class="nav-item">
+							<a class="nav-link" id="black" href=" " id ="navbar-contact">CONTACT</a>
+						</li> -->
+						
+					</ul>
+				</div>	
+			</nav> 
+			<!------------------------------------------------------------------------------------------>
+
+			<!------------------------------------------------------------------------------------------>
+			<!-- HERO IMAGE -->
+			<!------------------------------------------------------------------------------------------>
+			<div class = "text-center homepageContent">
+				<h1 id ="pagetitle"> Web Developer</h1>
+					<div class = "homepageicondiv">
+						<a href ="https://github.com/somramnani" class="btn-floating btn-tw mx-1 homePageIcons" target ="_blank">		
+							<i class="fab fa-github"> </i>
+						</a>
+						<a href ="https://www.linkedin.com/in/som-ramnani-b1990b14b" target ="_blank" class="btn-floating btn-li mx-1 homePageIcons">
+							<i class="fab fa-linkedin-in"> </i>
+						</a>
+						<a href = "assets/resume/SomRamnaniResume.pdf" target = "_blank" class="btn-floating btn-li mx-1 resumeicon homePageIcons ">
+								<i class="fas fa-file"></i>
+						</a>
+						<a href="mailto:som.ramnani@gmail.com" class=" btn-floating btn-li mx-1 homePageIcons">
+								<i class="fas fa-envelope-square "></i>
+						</a>
+					</div>
+				<button onclick="window.location.href = '#aboutmesection';"  class="btn btn-light" id = "getstartedbutton" >VIEW MY WORK</button>
+			</div>	
+		</div>
+		<!------------------------------------------------------------------------------------------>
+
+		<!------------------------------------------------------------------------------------------>
+		<!-- About Me Section -->
+		<!------------------------------------------------------------------------------------------>
+		<section id = "aboutmesection"  class ="hero-section">
+			<h1 class ="text-center pageheaders about displaynone aboutheader border-bottom-1 "> ABOUT</h1>
+			<div class = "container  about aboutme displaynone aboutmeinfo" >
+				<div class = "row aboutmerow ">
+					<!-- Picture of Me -->	
+					<div class = "col-xs-2 col-lg-6">    
+						<img src = "assets/images/me.jpg" alt = "Picture of Som" id = "image" class = "img-responsive center-block">
+					</div>
+					<!------------------------------------------------------------------------------------------>
+							
+					<!-- Bio -->
+					<div class = "col-xs-2 col-lg-6 about-page-info">  
+						<p>A web developer with a passion for technology and ambition to keep growing in programming.
+						</p>
+						<p>
+							I have acquired an Associate’s degree in Web Development. Over the past few years, I have gained 
+							experience in Web Development at Fairleigh Dickinson University, Bergen Community College, and the Rutgers Coding Bootcamp. 
+							This really allowed me to further develop my skills in HTML, CSS and JavaScript. These experiences also improved my ability 
+							to work with a team and to be a quick learner.
+						</p>
+						<p>
+							I have always had an interest in technology. I enjoy learning new languages and frameworks and am always looking for ways to improve 
+							my knowledge. The combination of my education and passion for technology contributes to my confidence in hardware, software, and programming.
+						</p>
+			
+						<!-- Skills logo -->
+						<div class="row">
+							<div class = "col-sm-2 text-center" >
+								<img src = "assets/images/HTML5.png" class= "skillsimages img-responsive" id = "html5image">
+							</div>
+							<div class = "col-sm-2 text-center">
+									<img src = "assets/images/css3.svg" class= "skillsimages img-responsive" id = "css3image">
+							</div>
+							<div class = "col-sm-2 text-center">
+									<img src = "assets/images/js5.png" class= "img-responsive skillsimages" id = "js5image">
+							</div>
+							<div class = "col-sm-2 text-center">
+									<img src = "assets/images/nodejs.png" class= "img-responsive skillsimages" id = "js5image">	
+							</div>	
+						</div>
+						<!------------------------------------------------------------------------------------------>
+					</div>		
+					<!------------------------------------------------------------------------------------------>		
+				</div>
+			</div>
+
+			<!-- Arrow down button -->
+			<div class ="text-center animated pulse infinite displaynone arrowbutton">
+				<div>
+					<a href = "#projectssection" id = "arrowdown">
+						<i class="fas fa-angle-double-down aboutpagearrowdown" ></i>
+					</a>
+				</div>
+			</div>
+			<!------------------------------------------------------------------------------------------>
+		</section>
+		<!------------------------------------------------------------------------------------------>
+
+		<!------------------------------------------------------------------------------------------>
+		<!-- Projects Sections -->
+		<!------------------------------------------------------------------------------------------>
+		<section id = "projectssection">
+			<div class="codeparralax img-responsive " > 
+				<div class ="text-center animated arrowdiv pulse infinite">
+					<a href = "#projects"   id = "arrowdown">
+						<i class="fas fa-angle-double-down projectspagearrow  " ></i>
+					</a>
+						
+				</div>
+			</div>
+		</section>
+
+		<section class = "hero-section projectcontainer " >
+			<h1 class="text-center " id = "projects" >PROJECTS</h1>
+			<!-- <ul class = "text-center projectsbullets">
+				<li>
+					<button onclick ="myFunction()" class = "portfolioNavBar">ALL</button>
+				</li>
+
+				
+				<li>
+					<button onclick ="myFunction()" class = "portfolioNavBar">JAVASCRIPT/JQUERY</button>
+				</li>
+
+				<li>
+					<button onclick ="myFunction()" class = "portfolioNavBar">NODE</button>
+				</li>
+			</ul> -->
+
+			<div class="container  portfoliocontainer displaynone ">
+				<div class="row center ">
+					<!------------------------------------------------------------------------------------------>
+					<!-- Project 1 -->		
+					<!------------------------------------------------------------------------------------------>
+					<div class="col-sm-4 project1 ">
+						<div id = "projectimage1">
+							<div class="card galleryimage projectimage1 img-responsive " >
+									<img class="card-img-top projectimage" src="assets/images/rps.jpg">
+									<div class="card-body">
+										<h4 class="card-title">Date Night</h4>
+										<p class="card-text">A web app that assists the average person in searching for multiple activities in a given location.</p>
+									</div>
+									<ul class="list-group list-group-flush">
+										<li class="list-group-item "> <strong>Languages/Tools Used </strong>
+											<p>HTML5, CSS3, Bootstrap, JavaScript, JSON, AJAX, Sequelize & Passport </p>
+										</li>
+									</ul>
+									<div class="card-body buttons ">
+										<a href = "https://github.com/somramnani/Date-Night-V2" class="btn btn-dark projectbuttons websitebutton"  target = "_blank">	<i class="fab fa-github"> </i> GitHub</a>	
+										<a href="https://date-night-v2.herokuapp.com/" class="btn btn-primary projectbuttons websitebutton" target = "_blank" ><i class="fas fa-globe"></i> Website</a>
+									</div>
+							</div>
+						</div>
+					</div>
+					<!------------------------------------------------------------------------------------------>
+
+					<!------------------------------------------------------------------------------------------>
+					<!--Project 2 -->
+					<!------------------------------------------------------------------------------------------>
+					<div class="col-sm-4 project2 ">
+						<div>
+							<div class="card galleryimage projectimage2  img-responsive " >
+									<img class="card-img-top projectimage projectimage2" src="assets/images/restaurant-employees.jpg">								
+									<div class="card-body">
+											<h4 class="card-title">Restaurant Manager</h4>
+											<p class="card-text project2text">An application where managers can track their employees and make reservations.</p>
+									</div>
+										<ul class="list-group list-group-flush">
+											<li class="list-group-item "> <strong>Languages/Tools Used </strong>
+												<p>HTML5, CSS3, JavaScript, API, Bootstrap, Express, Sequelize & Passport  </p>
+											</li>
+										</ul>
+										<div class="card-body ">
+												<a href="https://github.com/somramnani/RestaurantApp" class="btn btn-dark projectbuttons" target = "_blank" ><i class="fab fa-github"> </i> GitHub</a>
+												<a href="https://restaurant-employee-app.herokuapp.com/" class="btn btn-primary projectbuttons websitebutton" target = "_blank" ><i class="fas fa-globe"></i> Website</a>
+										</div>
+								</div>
+						</div>
+					</div>
+					<!------------------------------------------------------------------------------------------>	
+					
+					<!------------------------------------------------------------------------------------------>
+					<!--Project 3 -->
+					<!------------------------------------------------------------------------------------------>
+					<div class="col-sm-4 project3">
+						<div>				
+							<div class="card galleryimage projectimage3  img-responsive" >				
+								<img class = "card-img-top" src = "assets/images/movie2.jpg">				
+								<div class="card-body">			
+									<h4 class="card-title">OMDB-Search</h4>
+									<p class="card-text">A fullstack application that implements the OMDB API where users can search for movies.</p>
+								</div>
+								<ul class="list-group list-group-flush">
+									<li class="list-group-item project3text2 "> <strong>Languages/Tools Used </strong>
+										<p>HTML5, CSS3, JavaScript, API, Materialize, Sequelize & Passport </p>
+									</li>
+								</ul>
+								<div class="card-body ">
+										<a href="https://github.com/somramnani/OMDB-Search"  target = "_blank" class="btn btn-dark projectbuttons websitebutton"><i class="fab fa-github"> </i> GitHub</a>
+										<a href="https://omdbapi-search.herokuapp.com" class="btn btn-primary projectbuttons websitebutton" target = "_blank" ><i class="fas fa-globe"></i> Website</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!------------------------------------------------------------------------------------------>
+
+					<!------------------------------------------------------------------------------------------>
+					<!--Project 4 -->
+					<!------------------------------------------------------------------------------------------>
+					<div class="col-sm-4 project4 center">
+						<div>
+							<div class="card galleryimage projectimage4  img-responsive" >
+								<img class = "card-img-top" src = "assets/images/batman.gif">
+								<div class="card-body">
+									<h4 class="card-title">Batman Cicky Game</h4>
+									<p class="card-text project3text">A Batman memory game built in React.</p>
+								</div>
+								<ul class="list-group list-group-flush">
+									<li class="list-group-item "> <strong>Languages/Tools Used </strong>
+										<p>HTML5, CSS3, Material-UI, JavaScript & React </p>
+									</li>
+								</ul>
+								<div class="card-body ">
+										<a href="https://github.com/somramnani/BatmanTASClickyGame"  target = "_blank" class="btn btn-dark projectbuttons websitebutton"><i class="fab fa-github "> </i> GitHub</a>
+										<a href="https://batmanclickygame.herokuapp.com/" class="btn btn-primary projectbuttons websitebutton" target = "_blank" ><i class="fas fa-globe"></i> Website</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!------------------------------------------------------------------------------------------>
+					
+				</div>
+			</div>	
+		</section>
+		<!------------------------------------------------------------------------------------------>
+
+		<!------------------------------------------------------------------------------------------>
+		<!-- Footer -->	
+		<!------------------------------------------------------------------------------------------>
+		<footer class="page-footer font-small navbar-dark bg-dark ">									
+			<!-- Copyright -->
+			<div class="footer-copyright text-center py-3">
+				SOM RAMNANI ©2019 
+				<a href="mailto:som.ramnani@gmail.com" class="">
+						<i class="fas fa-envelope-square emailicon"></i>
+				</a>
+			</div>  
+		</footer>
+		<!------------------------------------------------------------------------------------------>
+
+		<!------------------------------------------------------------------------------------------>
+		<!-- JAVASCRIPT FILES -->
+		<!------------------------------------------------------------------------------------------>	
+		<!-- jQuery library -->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" ></script>
+   
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" ></script>
+		<script src="assets/javascript/logic.js"></script>
+		<!------------------------------------------------------------------------------------------>
+	</body>
+</html>

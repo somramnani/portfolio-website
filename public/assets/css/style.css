@@ -1,0 +1,413 @@
+/* General Styles
+========================================================================== */
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: #f5f5f5;
+}
+
+.projectsbullets {
+  list-style-type: none;
+}
+.projectsbullets li {
+  display: inline;
+  padding: 20px;
+}
+
+.portfolioNavBar {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.container {
+  position: relative;
+}
+.aboutme {
+  background-color: white;
+}
+
+#maincontent {
+  padding-bottom: 7em;
+}
+
+.about {
+  transform: translateY(1em);
+}
+
+/* Border for each page */
+.border {
+  padding: 40px;
+}
+
+/* Middle content background image */
+.background-color {
+  background-image: url("../images/joe-taylor-641989-unsplash.jpg");
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  opacity: 1;
+}
+
+.homepageContent {
+  transform: translateY(10em);
+  text-transform: uppercase;
+}
+
+.about-page-info {
+  transform: translateY(2em);
+  padding-bottom: 5em;
+}
+
+.hero-section {
+  padding-bottom: 5em;
+
+  background-size: cover;
+}
+
+#aboutmesection {
+  background-color: #f5f5f5;
+}
+
+.pageheaders {
+  padding-top: 1.5em;
+  padding-bottom: 0.5em;
+}
+
+.aboutheader,
+#projects {
+  letter-spacing: 10px;
+}
+
+.displaynone {
+  display: none;
+}
+
+#projects {
+  padding-bottom: 0.3em;
+  padding-top: 1.5em;
+}
+
+.projectcontainer {
+  padding-bottom: 40em;
+}
+
+.galleryimage {
+  background-image: url();
+
+  /* width: 22.5rem; 
+      height: 16rem; */
+  width: 391px;
+  height: auto;
+
+  display: inline-block;
+}
+
+.projectimage {
+  height: 259px;
+}
+
+/* .projectimage1{
+      background-image: url("../images/rps.jpg");
+      background-repeat: no-repeat; /* Do not repeat the image  */
+/* background-size: cover;
+    } */
+
+/* .projectimage2{
+      background-image: url("../images/camera.jpg");
+      background-repeat: no-repeat; /* Do not repeat the image */
+/* background-size: cover;
+    } */
+
+/* .projectimage3{
+      background-image: url("../images/blockchain.jpg");
+      background-repeat: no-repeat; /* Do not repeat the image */
+/* background-size: cover; */
+/*  */
+.cardtext1 {
+  color: white;
+}
+
+.project2 {
+  padding-left: 3em;
+}
+
+.project3 {
+  padding-left: 5em;
+}
+
+.project4 {
+  padding-top: 2em;
+}
+
+.card-title,
+.card-text {
+  position: relative;
+}
+
+.card-footer {
+  background-color: rgba(0, 0, 0, 0);
+  text-align: center;
+}
+
+.viewwebsite {
+  color: black;
+}
+
+.emailicon {
+  color: white;
+  padding-left: 5px;
+}
+
+.project3text {
+  padding-bottom: 24px;
+}
+.project3text2 {
+}
+
+/*========================================================================== */
+
+/* Navigation Styles
+========================================================================== */
+
+.nav-item {
+  float: right;
+}
+
+#navbar-contact {
+  border: 1px solid white;
+}
+/* ========================================================================== */
+/* Header Styles
+========================================================================== */
+#pagetitle {
+  font-weight: bolder;
+  letter-spacing: 21px;
+  color: black;
+  text-decoration: none;
+  font-size: 3em;
+  padding-bottom: 20px;
+}
+h1 {
+  font-weight: bold;
+  text-decoration: underline;
+  letter-spacing: 2px;
+}
+/* ========================================================================== */
+/* Image Styles
+========================================================================== */
+
+#image {
+  width: 66%;
+  height: auto;
+  padding: 20px;
+}
+
+.portfolioimages {
+  padding-bottom: 40px;
+}
+
+/* Portfolio parralax image */
+.codeparralax {
+  background-image: url("../images/great.jpg");
+  height: 720px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.skillsimages {
+  width: auto;
+  height: 120px;
+  padding: 10px;
+}
+#css3image {
+  padding-right: 10px;
+}
+
+.cardimg {
+  width: 286px;
+  height: 180px;
+}
+
+.projectimage1:a {
+  transition-duration: 5s;
+}
+
+/* ========================================================================== */
+/* Animation Styles
+========================================================================== */
+
+.animated {
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  -ms-animation-duration: 2s;
+  -o-animation-duration: 2s;
+  animation-duration: 1s;
+}
+
+.aboutmeanimation {
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 3s;
+  -moz-animation-duration: 3s;
+  -ms-animation-duration: 3s;
+  -o-animation-duration: 3s;
+  animation-duration: 3s;
+}
+
+.opacity {
+  opacity: 0.1;
+}
+
+/* ========================================================================== */
+/* Button Styles
+========================================================================== */
+.homePageIcons {
+  font-size: 4em;
+  color: black;
+  padding: 15px;
+}
+
+.resumeicon {
+  font-size: 3.6em;
+  color: black;
+}
+
+.homePageIcons:hover,
+.resumeicon:hover {
+  color: white;
+}
+.homepageicondiv {
+  padding-bottom: 20px;
+}
+
+#getstartedbutton {
+  display: block;
+  margin: 0 auto;
+  border-radius: 4px;
+  background-color: black;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  box-shadow: 0 10px 20px -8px white;
+}
+
+#getstartedbutton {
+  cursor: pointer;
+  position: relative;
+  transition: 0.5s;
+}
+
+#getstartedbutton:after {
+  content: "»";
+  font-size: 30px;
+  position: absolute;
+  opacity: 0;
+  top: 1px;
+  right: -2px;
+  transition: 0.5s;
+}
+
+#getstartedbutton:hover {
+  padding-right: 30px;
+  padding-left: 15px;
+}
+
+#getstartedbutton:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+
+.pulse {
+  width: 97%;
+  height: 100%;
+}
+
+.aboutpagearrowdown {
+  transform: translate(1em, 0.2em);
+  font-size: 2em;
+  color: black;
+}
+
+.projectspagearrow {
+  font-size: 2em;
+  color: white;
+  transform: translateY(20.8em);
+}
+.projectbuttons {
+  box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.4);
+  transition: all ease-in-out 300ms;
+}
+
+.projectbuttons:hover {
+  box-shadow: 0px 37px 20px -20px rgba(0, 0, 0, 0.2);
+  transform: translate(0px, -10px) scale(1.2);
+}
+
+.aboutmerow {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.card {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.line {
+  text-decoration: underline;
+}
+/* ========================================================================== */
+
+/* Footer Styles
+========================================================================== */
+footer {
+  /* background-color: #3A3535; */
+  color: white;
+  padding: 0px;
+  width: 100%;
+}
+
+/* ========================================================================== */
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
